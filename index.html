@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel & Tijera</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <section class="principal">
+        <div class="puntajes">
+            <div>
+                <h2>Usuario</h2>
+                <p class="puntaje-usuario">0</p>
+            </div>
+            <div>
+                <h2>Computador</h2>
+                <p class="puntaje-computador">0</p>
+            </div>
+        </div>
+        <div class="tablero">
+            <div class="manos">
+                <img class="mano-usuario" src="assets/img/piedra_ada.png" alt="imagen de piedra">
+                <img class="mano-computador" src="assets/img/piedra_computadora.png" alt="imagen de piedra">
+            </div>
+            <h2 class="resultado">Seleccione una Opción</h2>
+            <div class="opciones">
+                <button class="botones piedra">
+                    <img class="mano-usuario" src="assets/img/piedra_ada.png" alt="imagen de piedra">
+                </button>
+                <button class="botones papel">
+                    <img class="mano-usuario" src="assets/img/papel_ada.png" alt="imagen de papel">
+                </button>
+                <button class="botones tijera">
+                    <img class="mano-usuario" src="assets/img/tijera_ada.png" alt="imagen de tijera">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="assets/js/alert.js"></script> -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
