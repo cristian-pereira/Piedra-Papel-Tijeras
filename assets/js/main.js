@@ -54,7 +54,7 @@ const jugar = () => {
 const validacion = (opcion, opciones) => {
     if ((opcion === 'piedra' && opciones === 'tijera')
      || (opcion === 'papel' && opciones === 'piedra')
-     || (opcion === 'rijera' && opciones === 'papel')) {
+     || (opcion === 'tijera' && opciones === 'papel')) {
         Swal.fire({
             icon: 'success',
             title: 'El jugador Gana',
